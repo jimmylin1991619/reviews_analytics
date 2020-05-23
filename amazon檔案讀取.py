@@ -40,10 +40,10 @@ print('一共有', len(good), '筆留言有good')
 print(good[0])
 
 
+new_good = [d for d in data if 'good' in d]  #上面的快寫法
 
-
-
-
+print('一共有', len(new_good), '筆留言有good')
+print(new_good[0])
 
 
 
